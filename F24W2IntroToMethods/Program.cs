@@ -43,6 +43,20 @@
 
             PrintArray(arr);
             PrintArray(4, 3, 4, 5, 65, 76, 8, 76, 5, 4, 3, 32, 65);
+
+
+
+            PersonInfo("John", 34);
+            PersonInfo(name: "John", age: 43);
+            PersonInfo(age: 40, name: "John");
+
+
+            Console.WriteLine("45\u00B0C");
+        }
+
+        static void PersonInfo(string name, int age = 18)
+        {
+            // print name and age
         }
 
         static void PrintArray(params int[] a)
